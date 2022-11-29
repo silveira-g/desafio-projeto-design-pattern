@@ -76,4 +76,8 @@ public class Endereco {
     public void setSiafi(String siafi) {
         this.siafi = siafi;
     }
+    public  Endereco consultarCep(String cep){
+        return null;
+
+    } 
 }
