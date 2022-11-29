@@ -3,6 +3,7 @@ package dio.desafioprojetodesignpattern.service.impl;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import dio.desafioprojetodesignpattern.model.Cliente;
 import dio.desafioprojetodesignpattern.model.ClienteRepository;
@@ -11,6 +12,8 @@ import dio.desafioprojetodesignpattern.model.EnderecoRepository;
 import dio.desafioprojetodesignpattern.service.ClienteService;
 import dio.desafioprojetodesignpattern.service.ViaCepService;
 
+
+@Service
 public class ClienteServiceImpl implements ClienteService{
 
     @Autowired
